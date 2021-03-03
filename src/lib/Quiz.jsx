@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import Core from './Core';
 import { defaultLocale } from './Locale';
-import "./styles.css";
+// import "./styles.css";
 
 const Quiz = ({ quiz, shuffle, showDefaultResult, onComplete, customResultPage, showInstantFeedback, continueTillCorrect }) => {
   const [start, setStart] = useState(false)
